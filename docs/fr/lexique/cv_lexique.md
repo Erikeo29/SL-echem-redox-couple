@@ -93,16 +93,6 @@
 | $D$ | Coefficient de diffusion | m²/s |
 | $\delta$ | Épaisseur de couche de diffusion | m |
 
-### Paramètres de surface (CV électrodes Au/Ni/Cu)
-
-| Symbole | Nom | Unité SI |
-|---------|-----|----------|
-| $\theta$ | Couverture de surface (fraction de sites occupés) | - [0, 1] |
-| $\Gamma_{max}$ | Densité maximale de sites de surface | mol/m² |
-| $E^0_{ox}$ | Potentiel standard d'oxydation (formation d'oxyde) | V |
-| $E^0_{red}$ | Potentiel standard de réduction (dissolution d'oxyde) | V |
-| $C_{dl}$ | Capacité de double couche | F/m² (ou µF/cm²) |
-
 ### Métriques CV
 
 | Symbole | Nom | Unité |
@@ -129,7 +119,7 @@
 |---------|-----|-------|-------------|
 | $R_s$ | Résistance de solution | Ω | Chute ohmique dans l'électrolyte |
 | $R_{ct}$ | Résistance de transfert de charge | Ω | Cinétique de la réaction redox |
-| $R_{film}$ | Résistance de film passif | Ω | Film d'oxyde (EIS électrodes Au/Ni/Cu) |
+| $R_{film}$ | Résistance de film passif | Ω | Film passif sur l'électrode |
 | $Q_0$ | Paramètre CPE | F·s^(n-1) | Pseudo-capacité (CPE) |
 | $n_{CPE}$ | Exposant CPE | — | 1 = capacité idéale, < 1 = non idéale |
 | $\sigma$ | Coefficient de Warburg | Ω·s⁻⁰·⁵ | Diffusion semi-infinie |

@@ -129,15 +129,7 @@ $$Z(\omega) = R_s + \frac{1}{\frac{1}{Z_{CPE}} + \frac{1}{R_{ct} + Z_W}}$$
 
 Circuit: $R_s$ in series with the parallel combination of $CPE_{dl}$ and ($R_{ct} + Z_W$).
 
-### 6.4 Two-time-constant circuit (EIS Au/Ni/Cu electrode)
-
-Used when a passive film forms on the electrode (pH ≥ 7 with Ni or Cu):
-
-$$Z(\omega) = R_s + Z_{film\parallel} + Z_{dl\parallel}$$
-
-with $Z_{film\parallel} = \frac{R_{film} \cdot Z_{CPE,film}}{R_{film} + Z_{CPE,film}}$ and $Z_{dl\parallel} = \frac{(R_{ct} + Z_W) \cdot Z_{CPE,dl}}{(R_{ct} + Z_W) + Z_{CPE,dl}}$
-
-### 6.5 Charge transfer resistance
+### 6.4 Charge transfer resistance
 
 $R_{ct}$ is computed from the physical parameters of the redox couple:
 
@@ -145,19 +137,19 @@ $$R_{ct} = \frac{RT}{n^2 F^2 A \, k^0 \, c}$$
 
 where $A$ = electrode surface area ($1.77 \times 10^{-6}$ m²), $k^0$ = standard rate constant (m/s), $c$ = concentration (mol/m³).
 
-### 6.6 Warburg coefficient
+### 6.5 Warburg coefficient
 
 For an equimolar couple ($D_O = D_R = D$, $c_O = c_R = c$):
 
 $$\sigma = \frac{RT}{n^2 F^2 A \sqrt{2}} \cdot \frac{2}{\sqrt{D} \cdot c}$$
 
-### 6.7 Effective double-layer capacitance
+### 6.6 Effective double-layer capacitance
 
 At the Nyquist semicircle apex (angular frequency $\omega_{max}$):
 
 $$C_{dl,eff} = \frac{1}{\omega_{max} \cdot R_{ct}}$$
 
-### 6.8 Diagnostics
+### 6.7 Diagnostics
 
 | Nyquist observation | Interpretation |
 |---------------------|----------------|
@@ -165,7 +157,6 @@ $$C_{dl,eff} = \frac{1}{\omega_{max} \cdot R_{ct}}$$
 | 45° line only | High $k^0$ → $R_{ct} \approx 0$, pure diffusion |
 | Semicircle only | High $D$ → $\sigma \approx 0$, pure charge transfer |
 | Flattened semicircle | $n_{CPE} < 1$ — heterogeneous surface |
-| 2 distinct arcs | Passive film (EIS Au/Ni/Cu electrode) — 2 time constants |
 
 ---
 

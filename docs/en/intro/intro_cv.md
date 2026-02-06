@@ -32,9 +32,9 @@ Numerical simulation allows us to:
 5. Diagnose the presence and properties of passive films
 6. Quantify the influence of redox couple properties on impedance response
 
-In this project, four complementary studies cover:
-- **Studies 1 and 2**: the **ferro/ferricyanide**-type redox couple ($Fe(CN)_6^{3-/4-}$) on a pure gold electrode, using CV (Study 1) and EIS (Study 2)
-- **Studies 3 and 4**: an **Au electrode with Ni and Cu impurities**, using CV with surface oxides (Study 3) and EIS with adaptive circuit (Study 4)
+In this project, two complementary studies cover:
+- **Study 1**: the **ferro/ferricyanide**-type redox couple ($Fe(CN)_6^{3-/4-}$) on a pure gold electrode, using CV
+- **Study 2**: the same redox couple on a pure gold electrode, using EIS
 
 ---
 

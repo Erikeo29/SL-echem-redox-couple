@@ -32,9 +32,8 @@ La simulation numérique permet de :
 5. Diagnostiquer la présence et les propriétés de films passifs
 6. Quantifier l'influence des propriétés du couple redox sur la réponse en impédance
 
-Dans ce projet, quatre études complémentaires couvrent :
+Dans ce projet, deux études complémentaires couvrent :
 - **Études 1 et 2** : le couple redox type **ferro/ferricyanure** ($Fe(CN)_6^{3-/4-}$) sur électrode d'or pure, en CV (étude 1) et en EIS (étude 2)
-- **Études 3 et 4** : une électrode **Au avec impuretés Ni et Cu**, en CV avec oxydes de surface (étude 3) et en EIS avec circuit adaptatif (étude 4)
 
 ---
 

@@ -129,15 +129,7 @@ $$Z(\omega) = R_s + \frac{1}{\frac{1}{Z_{CPE}} + \frac{1}{R_{ct} + Z_W}}$$
 
 Circuit : $R_s$ en série avec le parallèle de $CPE_{dl}$ et ($R_{ct} + Z_W$).
 
-### 6.4 Circuit à 2 constantes de temps (EIS électrodes Au/Ni/Cu)
-
-Utilisé quand un film passif se forme sur l'électrode (pH ≥ 7 avec Ni ou Cu) :
-
-$$Z(\omega) = R_s + Z_{film\parallel} + Z_{dl\parallel}$$
-
-avec $Z_{film\parallel} = \frac{R_{film} \cdot Z_{CPE,film}}{R_{film} + Z_{CPE,film}}$ et $Z_{dl\parallel} = \frac{(R_{ct} + Z_W) \cdot Z_{CPE,dl}}{(R_{ct} + Z_W) + Z_{CPE,dl}}$
-
-### 6.5 Résistance de transfert de charge
+### 6.4 Résistance de transfert de charge
 
 $R_{ct}$ est calculée à partir des paramètres physiques du couple redox :
 
@@ -145,19 +137,19 @@ $$R_{ct} = \frac{RT}{n^2 F^2 A \, k^0 \, c}$$
 
 où $A$ = surface de l'électrode ($1.77 \times 10^{-6}$ m²), $k^0$ = constante de vitesse standard (m/s), $c$ = concentration (mol/m³).
 
-### 6.6 Coefficient de Warburg
+### 6.5 Coefficient de Warburg
 
 Pour un couple équimolaire ($D_O = D_R = D$, $c_O = c_R = c$) :
 
 $$\sigma = \frac{RT}{n^2 F^2 A \sqrt{2}} \cdot \frac{2}{\sqrt{D} \cdot c}$$
 
-### 6.7 Capacité effective de double couche
+### 6.6 Capacité effective de double couche
 
 Au sommet du semicercle de Nyquist (pulsation $\omega_{max}$) :
 
 $$C_{dl,eff} = \frac{1}{\omega_{max} \cdot R_{ct}}$$
 
-### 6.8 Diagnostics
+### 6.7 Diagnostics
 
 | Observation Nyquist | Interprétation |
 |---------------------|----------------|
@@ -165,7 +157,6 @@ $$C_{dl,eff} = \frac{1}{\omega_{max} \cdot R_{ct}}$$
 | Droite 45° uniquement | $k^0$ élevé → $R_{ct} \approx 0$, diffusion pure |
 | Semicercle seul | $D$ élevé → $\sigma \approx 0$, transfert de charge pur |
 | Semicercle aplati | $n_{CPE} < 1$ — surface hétérogène |
-| 2 arcs distincts | Film passif (EIS électrodes Au/Ni/Cu) — 2 constantes de temps |
 
 ---
 

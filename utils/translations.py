@@ -13,12 +13,12 @@ TRANSLATIONS = {
         "annex_pages": ["Conclusion et perspectives", "Lexique", "Équations clés", "Un peu d'histoire", "Références bibliographiques"],
         "tabs_cv_study": ["Physique", "Code", "Résultats", "Analyse"],
         "tabs_eis_ferro": ["Physique", "Code", "Résultats", "Analyse"],
-        "version_info": """**Version 3.0.0** — Feb 2026 - *EQU*
+        "version_info": """**Version 2.1.2** — Dec 2025 - *EQU*
 
 **Nouveautés :**
-- App dédiée couple redox
-- Filtres en cascade
-- Assistant IA Llama 3""",
+- Étude paramétrique EIS
+- Assistant IA Llama 3
+- Filtres en cascade""",
         # Labels CV
         "title_study_1": "Étude 1 : CV d'un couple redox sur Au",
         "title_study_2": "Étude 2 : EIS d'un couple redox sur Au",
@@ -71,12 +71,12 @@ TRANSLATIONS = {
         "annex_pages": ["Conclusion and Perspectives", "Glossary", "Key Equations", "A Bit of History", "Bibliographical References"],
         "tabs_cv_study": ["Physics", "Code", "Results", "Analysis"],
         "tabs_eis_ferro": ["Physics", "Code", "Results", "Analysis"],
-        "version_info": """**Version 3.0.0** — Feb 2026 - *EQU*
+        "version_info": """**Version 2.1.2** — Dec 2025 - *EQU*
 
 **New Features:**
-- Dedicated redox couple app
-- Cascade filters
-- AI Assistant Llama 3""",
+- EIS parametric study
+- AI Assistant Llama 3
+- Cascade filters""",
         # Labels CV
         "title_study_1": "Study 1: CV of a redox couple on Au",
         "title_study_2": "Study 2: EIS of a redox couple on Au",

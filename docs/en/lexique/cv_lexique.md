@@ -93,16 +93,6 @@
 | $D$ | Diffusion coefficient | m²/s |
 | $\delta$ | Diffusion layer thickness | m |
 
-### Surface Parameters (CV Au/Ni/Cu electrode)
-
-| Symbol | Name | SI Unit |
-|--------|------|---------|
-| $\theta$ | Surface coverage (fraction of occupied sites) | - [0, 1] |
-| $\Gamma_{max}$ | Maximum surface site density | mol/m² |
-| $E^0_{ox}$ | Standard oxidation potential (oxide formation) | V |
-| $E^0_{red}$ | Standard reduction potential (oxide dissolution) | V |
-| $C_{dl}$ | Double-layer capacitance | F/m² (or µF/cm²) |
-
 ### CV Metrics
 
 | Symbol | Name | Unit |
@@ -129,7 +119,7 @@
 |--------|------|------|-------------|
 | $R_s$ | Solution resistance | Ω | Ohmic drop in the electrolyte |
 | $R_{ct}$ | Charge transfer resistance | Ω | Redox reaction kinetics |
-| $R_{film}$ | Passive film resistance | Ω | Oxide film (EIS Au/Ni/Cu electrode) |
+| $R_{film}$ | Passive film resistance | Ω | Passive film on electrode |
 | $Q_0$ | CPE parameter | F·s^(n-1) | Pseudo-capacitance (CPE) |
 | $n_{CPE}$ | CPE exponent | — | 1 = ideal capacitor, < 1 = non-ideal |
 | $\sigma$ | Warburg coefficient | Ω·s⁻⁰·⁵ | Semi-infinite diffusion |
