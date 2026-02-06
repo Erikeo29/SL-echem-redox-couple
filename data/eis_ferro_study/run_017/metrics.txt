@@ -1,0 +1,12 @@
+EIS Extracted Metrics
+========================================
+
+Rs_measured: 5.697404e+01
+Rct_measured: 6.330994e+04
+omega_max: 6.283185e-02
+f_max_Hz: 1.000000e-02
+Cdl_eff: 2.513901e-04
+sigma_input: 7.906295e+03
+sigma_fit: 7.904516e+03
+phase_max_deg: 4.484261e+01
+f_transition_Hz: 1.000000e-02
