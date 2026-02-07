@@ -32,9 +32,9 @@ Numerical simulation allows us to:
 5. Diagnose the presence and properties of passive films
 6. Quantify the influence of redox couple properties on impedance response
 
-In this project, two complementary studies cover:
-- **Study 1**: the **ferro/ferricyanide**-type redox couple ($Fe(CN)_6^{3-/4-}$) on a pure gold electrode, using CV
-- **Study 2**: the same redox couple on a pure gold electrode, using EIS
+In this project, two distinct and complementary studies focus on the **ferro/ferricyanide** redox couple ($Fe(CN)_6^{3-/4-}$) on a pure gold electrode:
+- **Study 1**: cyclic voltammetry (CV) — mass transport and Butler-Volmer kinetics
+- **Study 2**: impedance spectroscopy (EIS) — Randles circuit, extraction of $R_{ct}$, $\sigma$ and $C_{dl}$
 
 ---
 

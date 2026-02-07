@@ -24,23 +24,23 @@ Cette application regroupe des simulations **électrochimiques** résolues en Py
 
 ### Étude 1 : CV d'un couple redox sur Au
 
-Modélisation du transport de masse instationnaire couplé à la cinétique de Butler-Volmer. Le système $Fe(CN)_6^{3-} / Fe(CN)_6^{4-}$ est résolu par éléments finis (Firedrake) en géométrie 2D. L'étude paramétrique porte sur la constante cinétique $k^0$, le coefficient de transfert $\alpha$ et la vitesse de balayage $\nu$.
+Modélisation du transport de masse instationnaire couplé à la cinétique de Butler-Volmer. Un système rédox de type ferro/ferricyanure $Fe(CN)_6^{3-} / Fe(CN)_6^{4-}$ est résolu par éléments finis (sous Firedrake) en géométrie 2D. L'étude paramétrique porte sur la constante cinétique $k^0$, le coefficient de transfert $\alpha$ et la vitesse de balayage $\nu$.
 
 ### Étude 2 : EIS d'un couple redox sur Au
 
-Spectroscopie d'impédance électrochimique sur une électrode d'or pure avec un couple redox type ferro/ferricyanure. Le modèle utilise un circuit de Randles avec CPE et impédance de Warburg. L'étude paramétrique porte sur 5 paramètres ($n$, $k^0$, $D$, $c$, $Q_0$) pour 48 simulations. Les métriques extraites ($R_{ct}$, $\sigma$, $C_{dl,eff}$) sont complémentaires de l'étude 1.
+Spectroscopie d'impédance électrochimique sur une électrode d'or pure avec un couple redox type ferro/ferricyanure. Le modèle utilise un circuit de Randles avec CPE et impédance de Warburg. L'étude paramétrique porte sur 5 paramètres ($n$, $k^0$, $D$, $c$, $Q_0$). Les métriques extraites ($R_{ct}$, $\sigma$, $C_{dl,eff}$) sont complémentaires de l'étude 1.
 
 ---
 
 ## 3. Navigation
 
-L'application est structurée autour de plusieurs outils :
+La navigation dans cette application est structurée autour des outils suivants :
 
 1. **Menu latéral (à gauche)** : navigation principale entre les sections du projet.
    - **Introduction** : contexte scientifique et présentation des systèmes.
    - **Comparaison des études** : tableau synthétique des deux approches.
-   - **Pages par étude** : chaque étude contient des onglets Physique, Code et Résultats.
-   - **Annexes** : conclusion, lexique technique, équations clés et références bibliographiques.
+   - **Pages par étude** : chaque étude contient des onglets Physique (description des modèles physiques et de résolution numérique utilisés), Code (codes entièrement développés dans ce projet et pouvant être dupliqué) et Résultats (modélisations visuelles).
+   - **Annexes** : conclusion, lexique, équations clés, références bibliographiques et une page d'histoire sur les principaux chercheurs et scientifiques ayant développés les concepts physiques et numériques présentés.
 
 2. **Boutons de navigation flottants (à droite)** : déplacement rapide haut/bas de page.
 
