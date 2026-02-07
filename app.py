@@ -323,12 +323,15 @@ elif selected_page == model_pages[0]:
 
     # Tab 3: Analysis
     with tabs[3]:
-        st.markdown("### Analyse de l'Étude Paramétrique")
+        st.markdown(t("analysis_cv_title"))
 
-        analysis_report_path = os.path.join(DATA_PATH, "cv_analysis/ANALYSE_RAPPORT.md")
+        analysis_dir = os.path.join(DATA_PATH, "cv_analysis")
+        lang = get_language()
+        report_name = "ANALYSIS_REPORT.md" if lang == "en" else "ANALYSE_RAPPORT.md"
+        analysis_report_path = os.path.join(analysis_dir, report_name)
         if os.path.exists(analysis_report_path):
             with open(analysis_report_path, 'r', encoding='utf-8') as f:
-                st.markdown(f.read())
+                display_smart_markdown(f.read(), base_dir=analysis_dir)
 
 
 # ===== ÉTUDE 2 - EIS couple redox sur Au =====

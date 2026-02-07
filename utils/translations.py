@@ -50,6 +50,7 @@ TRANSLATIONS = {
         "lbl_ratio": "|Ipa/Ipc|",
         "lbl_delta_Ep": "ΔEp (mV)",
         "image_unavailable": "Image non disponible",
+        "analysis_cv_title": "### Analyse de l'étude paramétrique",
         "gif_coming_soon": "Visualisation dynamique (Gifs) - À venir",
         "placeholder_coming_soon": "Étude à venir - Contenu en cours de préparation",
         # Chatbot
@@ -108,6 +109,7 @@ TRANSLATIONS = {
         "lbl_ratio": "|Ipa/Ipc|",
         "lbl_delta_Ep": "ΔEp (mV)",
         "image_unavailable": "Image not available",
+        "analysis_cv_title": "### Parametric Study Analysis",
         "gif_coming_soon": "Dynamic Visualization (Gifs) - Coming Soon",
         "placeholder_coming_soon": "Coming Soon - Content under preparation",
         # Chatbot

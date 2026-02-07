@@ -25,16 +25,24 @@ def load_media_as_base64(file_path: str) -> str | None:
         return None
 
 
-def display_smart_markdown(content: str, doc_relative_path: str = None):
+def display_smart_markdown(content: str, doc_relative_path: str = None, base_dir: str = None):
     """Affiche du markdown avec support des images locales.
 
     Détecte les balises ![alt](path) et les remplace par st.image().
     Les chemins relatifs sont résolus par rapport au fichier .md source.
+
+    Parameters
+    ----------
+    base_dir : str, optional
+        Explicit base directory for resolving image paths.
+        Overrides doc_relative_path if provided.
     """
     img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
 
     # Determine base directory for resolving relative image paths
-    if doc_relative_path:
+    if base_dir:
+        doc_dir = base_dir
+    elif doc_relative_path:
         lang = get_language()
         doc_dir = os.path.dirname(os.path.join(DOC_PATH, lang, doc_relative_path))
     else:
