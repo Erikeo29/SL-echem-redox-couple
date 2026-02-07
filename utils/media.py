@@ -25,7 +25,8 @@ def load_media_as_base64(file_path: str) -> str | None:
         return None
 
 
-def display_smart_markdown(content: str, doc_relative_path: str = None, base_dir: str = None):
+def display_smart_markdown(content: str, doc_relative_path: str = None,
+                           base_dir: str = None, img_width: int = None):
     """Affiche du markdown avec support des images locales.
 
     Détecte les balises ![alt](path) et les remplace par st.image().
@@ -36,6 +37,9 @@ def display_smart_markdown(content: str, doc_relative_path: str = None, base_dir
     base_dir : str, optional
         Explicit base directory for resolving image paths.
         Overrides doc_relative_path if provided.
+    img_width : int, optional
+        Fixed width in pixels for images. If None, uses
+        use_container_width=True (full width).
     """
     img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
 
@@ -64,10 +68,13 @@ def display_smart_markdown(content: str, doc_relative_path: str = None, base_dir
             # Resolve relative path
             abs_path = os.path.normpath(os.path.join(doc_dir, img_path))
             if os.path.exists(abs_path):
-                if "circuit" in img_path.lower():
-                    st.image(abs_path, caption=alt_text if alt_text else None, width=450)
+                caption = alt_text if alt_text else None
+                if img_width:
+                    st.image(abs_path, caption=caption, width=img_width)
+                elif "circuit" in img_path.lower():
+                    st.image(abs_path, caption=caption, width=450)
                 else:
-                    st.image(abs_path, caption=alt_text if alt_text else None, use_container_width=True)
+                    st.image(abs_path, caption=caption, use_container_width=True)
             else:
                 st.warning(f"Image not found: {img_path}")
         i += 1
