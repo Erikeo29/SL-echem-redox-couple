@@ -73,6 +73,8 @@ def display_smart_markdown(content: str, doc_relative_path: str = None,
                     st.image(abs_path, caption=caption, width=img_width)
                 elif "circuit" in img_path.lower():
                     st.image(abs_path, caption=caption, width=450)
+                elif "delta_ep" in img_path.lower():
+                    st.image(abs_path, caption=caption, width=500)
                 else:
                     st.image(abs_path, caption=caption, use_container_width=True)
             else:

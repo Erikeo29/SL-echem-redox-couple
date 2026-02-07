@@ -331,7 +331,7 @@ elif selected_page == model_pages[0]:
         analysis_report_path = os.path.join(analysis_dir, report_name)
         if os.path.exists(analysis_report_path):
             with open(analysis_report_path, 'r', encoding='utf-8') as f:
-                display_smart_markdown(f.read(), base_dir=analysis_dir, img_width=350)
+                display_smart_markdown(f.read(), base_dir=analysis_dir)
 
 
 # ===== ÉTUDE 2 - EIS couple redox sur Au =====
