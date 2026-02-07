@@ -1,4 +1,4 @@
-**Table of Contents:**
+**Contents:**
 1. Principles of Cyclic Voltammetry
 2. Fundamental Equations
 3. Signal Shape and Interpretation
@@ -20,7 +20,7 @@ This system is a reference in electrochemistry because:
 - 1-electron reaction ($n = 1$)
 - Quasi-reversible couple (fast kinetics)
 - Stable species in aqueous solution
-- Standard potential $E^0 \approx 0.36$ V vs Ag/AgCl
+- Standard potential $E^0 \approx 0.36$ V vs Ag/AgCl at 25°C
 
 ### 1.2 Potential Sweep
 

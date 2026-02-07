@@ -1,36 +1,38 @@
 
-## 1. Résumé des paramètres
+## 1. Résumé des paramètres étudiés
 
 | Paramètre | Valeurs testées |
 |-----------|-----------------|
-| k₀ (m/s) | 1e-06, 1e-05, 1e-04, 1e-03 |
+| k⁰ (m/s) | 1e-06, 1e-05, 1e-04, 1e-03 |
 | α | 0.3, 0.5, 0.7 |
 | scan_rate (V/s) | 0.1, 0.2, 0.5 |
 
 **Paramètres fixes** :
 - D = 7.0e-9 m²/s
 - c_bulk = 1.0 mol/m³ (1 mM)
-- E0' = 0.36 V vs Ag/AgCl
+- E0 = 0.36 V vs Ag/AgCl
 - n = 1 électron
-- T = 298.15 K
+- T = 298.15 K (25°C)
 
 ---
 
 ## 2. Résultats principaux
 
-### 2.1 Effet de k₀ sur δEp
+### 2.1 Effet de k⁰ sur ΔEp
 
-| k₀ (m/s) | ΔEp moyen (mV) | Régime |
+| k⁰ (m/s) | ΔEp moyen (mV) | Régime |
 |----------|---------------------|--------|
 | 1e-06 | 667 | Irréversible |
 | 1e-05 | 400 | Irréversible |
 | 1e-04 | 152 | Quasi-réversible |
 | 1e-03 | 84 | Réversible |
 
+![ΔEp vs k⁰](delta_Ep_vs_k0.png)
+
 **Interprétation** :
-- k₀ < 1e-5 m/s : régime irréversible (ΔEp > 200 mV)
-- 1e-5 < k₀ < 1e-3 m/s : régime quasi-réversible (100 < ΔEp < 200 mV)
-- k₀ > 1e-3 m/s : régime réversible/nernstien (ΔEp ~ 59–80 mV)
+- k⁰ < 1e-5 m/s : régime irréversible (ΔEp > 200 mV)
+- 1e-5 < k⁰ < 1e-3 m/s : régime quasi-réversible (100 < ΔEp < 200 mV)
+- k⁰ > 1e-3 m/s : régime réversible/nernstien (ΔEp ~ 59–80 mV)
 
 ### 2.2 Effet de α sur le ratio ipa/Ipc
 
@@ -45,10 +47,12 @@
 - α < 0.5 : pic anodique relativement plus faible
 - α > 0.5 : pic cathodique relativement plus faible
 
-### 2.3 Vérification randles-Ševčík
+### 2.3 Vérification Randles-Ševčík
 
-La linéarité Ip vs √(scan_rate) est vérifiée pour tous les k₀ testés,
+La linéarité Ip vs √(scan_rate) est vérifiée pour tous les k⁰ testés,
 confirmant un régime de diffusion semi-infinie.
+
+![Ip vs √scan_rate — Validation Randles-Ševčík](Ip_vs_sqrt_scanrate.png)
 
 ---
 
@@ -61,18 +65,13 @@ proches de l'expérimental :
 
 | Paramètre | Valeur recommandée | Justification |
 |-----------|-------------------|---------------|
-| k₀ | 1e-4 m/s | Régime quasi-réversible, ΔEp ~ 120–180 mV |
+| k⁰ | 1e-4 m/s | Régime quasi-réversible, ΔEp ~ 120–180 mV |
 | α | 0.5 | Symétrie des pics |
 | scan_rate | 0.1 V/s | Standard électrochimique |
 
 ### 3.2 Validation du modèle
 
-- Le modèle Butler-Volmer capture correctement la transition irréversible → réversible
-- L'effet de α sur l'asymétrie est conforme à la théorie
-- La relation Randles-Ševčík est respectée
-
-### 3.3 Limitations observées
-
-- k₀ > 1e-3 m/s peut causer des problèmes de convergence Newton
-- Temps de calcul élevé pour scan_rate faibles (plus de pas de temps)
+- Le modèle Butler-Volmer capture correctement la transition irréversible → réversible.
+- L'effet de α sur l'asymétrie est conforme à la théorie.
+- La relation Randles-Ševčík est respectée.
 

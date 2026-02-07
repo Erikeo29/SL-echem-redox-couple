@@ -8,26 +8,26 @@
 
 ---
 
-La voltamétrie cyclique (CV) est la méthode électrochimique la plus utilisée pour caractériser les systèmes redox. Cette section présente les fondements théoriques nécessaires à l'interprétation des résultats de simulation.
+La voltamétrie cyclique (CV) est une méthode électrochimique très utilisée pour caractériser les systèmes redox. Cette section présente les fondements théoriques nécessaires à l'interprétation des résultats de simulation.
 
 ## 1. Principe de la voltamétrie cyclique
 
 ### 1.1 Le système redox étudié
 
-Nous étudions le couple **Ferri/Ferrocyanure** : $Fe(CN)_6^{3-} / Fe(CN)_6^{4-}$
+Nous étudions un couple redox de type **Ferri/Ferrocyanure** : $Fe(CN)_6^{3-} / Fe(CN)_6^{4-}$
 
 Ce système est une référence en électrochimie car :
-- Réaction à 1 électron ($n = 1$)
-- Couple quasi-réversible (cinétique rapide)
-- Espèces stables en solution aqueuse
-- Potentiel standard $E^0 \approx 0.36$ V vs Ag/AgCl
+- Réaction à 1 électron ($n = 1$).
+- Couple quasi-réversible (cinétique rapide).
+- Espèces stables en solution aqueuse.
+- Potentiel standard $E^0 \approx 0.36$ V vs Ag/AgCl à 25°C.
 
 ### 1.2 Le balayage de potentiel
 
 Le principe consiste à :
-1. Appliquer un potentiel triangulaire $E(t)$ à l'électrode de travail
-2. Mesurer le courant résultant $I(t)$
-3. Tracer le **voltammogramme** : $I = f(E)$
+1. Appliquer un potentiel triangulaire $E(t)$ à l'électrode de travail.
+2. Mesurer le courant résultant $I(t)$.
+3. Tracer le **voltammogramme** : $I = f(E)$.
 
 Le signal de potentiel suit :
 
@@ -92,7 +92,7 @@ Le ratio $|I_{pa}/I_{pc}|$ est un indicateur de la **réversibilité chimique** 
 
 ## 4. Diagnostic de réversibilité
 
-### 4.1 L'Écart de pic ($\Delta e_p$)
+### 4.1 L'écart de pic ($\Delta E_p$)
 
 C'est la différence de potentiel entre les pics : $\Delta E_p = |E_{pa} - E_{pc}|$
 
@@ -104,13 +104,13 @@ C'est la différence de potentiel entre les pics : $\Delta E_p = |E_{pa} - E_{pc
 
 ### 4.2 Influence de $k^0$ sur la réponse
 
-- $k^0 > 10^{-3}$ m/s : Système réversible
-- $10^{-5} < k^0 < 10^{-3}$ m/s : Quasi-réversible
-- $k^0 < 10^{-5}$ m/s : Irréversible
+- $k^0 > 10^{-3}$ m/s : système réversible
+- $10^{-5} < k^0 < 10^{-3}$ m/s : système quasi-réversible
+- $k^0 < 10^{-5}$ m/s : système irréversible
 
-### 4.3 Équation de randles-Ševčík
+### 4.3 Équation de Randles-Ševčík
 
-Pour un système réversible contrôlé par diffusion, le courant de pic suit :
+Pour un système réversible contrôlé par diffusion, le courant de pic suit la loi de Randles-Ševčík:
 
 $$ I_p = (2.69 \times 10^5) \, n^{3/2} \, A \, D^{1/2} \, c^* \, v^{1/2} $$
 

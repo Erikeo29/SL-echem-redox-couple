@@ -32,9 +32,9 @@ La simulation numérique permet de :
 5. Diagnostiquer la présence et les propriétés de films passifs.
 6. Quantifier l'influence des propriétés du couple redox sur la réponse en impédance.
 
-Dans ce projet, deux études distinctes et complémentaires portent sur le couple redox **ferro/ferricyanure** ($Fe(CN)_6^{3-/4-}$) sur électrode d'or pure :
-- **Étude 1** : voltamétrie cyclique (CV) — transport de masse et cinétique de Butler-Volmer
-- **Étude 2** : spectroscopie d'impédance (EIS) — circuit de Randles, extraction de $R_{ct}$, $\sigma$ et $C_{dl}$
+Dans ce projet, deux études distinctes et complémentaires portent sur l'analyse d'un couple redox de type **ferro/ferricyanure** ($Fe(CN)_6^{3-/4-}$) sur électrode d'or pure :
+- **Étude 1** : voltamétrie cyclique (CV) — transport de masse et cinétique de Butler-Volmer.
+- **Étude 2** : spectroscopie d'impédance (EIS) — circuit de Randles, extraction de $R_{ct}$, $\sigma$ et $C_{dl}$.
 
 ---
 

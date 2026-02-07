@@ -24,7 +24,7 @@ T = 298.15       # Temperature [K]
 
 ## 2. Simulation Class
 
-Encapsulating logic in a class ensures clean state management (time, history).
+Encapsulating logic in a class ensures clean state management (time, concentrations).
 
 ```python
 class CVSimulation:

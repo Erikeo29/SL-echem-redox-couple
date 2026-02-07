@@ -1,25 +1,25 @@
 # Comparaison des études
 
 **Sommaire :**
-1. Tableau synthétique
+1. Tableau de synthèse de comparaison CV vs EIS
 2. Différences fondamentales
 3. Complémentarité
 
 ---
 
-## 1. Tableau synthétique
+## 1. Tableau de synthèse de comparaison CV vs EIS
 
 | Critère | Étude 1 : CV couple redox sur Au | Étude 2 : EIS couple redox sur Au |
 | :--- | :--- | :--- |
-| **Domaine** | Temps | **Fréquence** |
+| **Domaine** | **Temps** | **Fréquence** |
 | **Espèces redox** | En solution ($Fe(CN)_6^{3-/4-}$) | En solution ($Fe(CN)_6^{3-/4-}$) |
 | **Transport** | Diffusion (loi de Fick) | Diffusion 1D (Warburg) |
 | **Variable** | $c(x,y,t)$ concentration | $Z(\omega)$ impédance complexe |
-| **Solveur** | Firedrake + Newton (FEM 2D) | numpy (algébrique) |
 | **Cinétique** | Butler-Volmer classique | Circuit de Randles + CPE |
-| **Sortie** | I(E) voltammogramme | Nyquist + Bode |
+| **Sortie** | I=f(E) voltammogramme | Nyquist + Bode |
 | **Paramètres étudiés** | $k^0$, $\alpha$, $\nu$ | $n$, $k^0$, $D$, $c$, $Q_0$ |
-| **Métriques clés** | Ipa, Ipc, ΔEp, ratio | Rct, σ, Cdl, ω_max |
+| **Métriques clés** | Ipa, Ipc, ΔEp | Rct, σ, Cdl, ω_max |
+| **Solveur** | Firedrake + Newton (FEM 2D) | numpy (algébrique) |
 | **Dépendances** | Firedrake, GMSH, scipy | numpy, matplotlib |
 
 ---
@@ -41,8 +41,8 @@ L'étude 2 sonde le même couple redox mais dans le domaine fréquentiel. Elle e
 
 ## 3. Complémentarité
 
-Ces deux études couvrent les deux grandes approches de caractérisation du couple redox ferro/ferricyanure :
-- **Processus contrôlé par diffusion** (étude 1) : diagnostic de réversibilité, effet de $\nu$
+Ces deux études couvrent  deux grandes approches de caractérisation d'un couple redox type ferro/ferricyanure :
+- **Processus contrôlé par diffusion** (étude 1) : diagnostic de réversibilité, effet de $\nu$ (vitesse de balayage)
 - **Analyse fréquentielle d'un couple redox** (étude 2) : influence de $k^0$, $D$, $c$ sur l'impédance
 
 L'EIS extrait des grandeurs inaccessibles en CV : **Rct** (résistance de transfert de charge), **Cdl** (capacité de double couche) et **σ** (coefficient de Warburg).

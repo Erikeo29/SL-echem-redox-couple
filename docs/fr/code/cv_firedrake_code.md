@@ -6,7 +6,7 @@
 
 ---
 
-Ce code utilise la librairie **Firedrake** pour résoudre les équations de transport. Voici une structure permettant de reproduire la simulation.
+Ce code utilise la librairie **Firedrake** pour résoudre les équations de transport. La structure ci-dessous permet de reproduire la simulation.
 
 ## 1. Imports et configuration
 
@@ -24,7 +24,7 @@ T = 298.15       # Température [K]
 
 ## 2. Classe de simulation
 
-L'encapsulation dans une classe permet de gérer proprement l'état (temps, concentrations passées).
+L'encapsulation dans une classe permet de gérer proprement l'état (temps, concentrations).
 
 ```python
 class CVSimulation:
@@ -96,7 +96,3 @@ def run(self, dt, n_steps):
 ```
 
 ---
-
-**Références**
-
-*Note : Pour la liste complète des références, consultez la section Références bibliographiques dans le menu Annexes.*

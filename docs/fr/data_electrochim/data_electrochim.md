@@ -48,7 +48,7 @@ où $\eta = E - E^0$ est la surtension et $i_0 = nFAk^0 c$ le courant d'échange
 
 | Hypothèse | Justification | Limitation |
 |-----------|---------------|------------|
-| Diffusion 1D semi-infinie | Électrode plane, solution calme | Ignore convection naturelle |
+| Diffusion 1D semi-infinie | Électrode plane, solution non agitée | Ignore convection naturelle |
 | Espèces en excès | Électrolyte support >> espèces actives | Pas de migration |
 | $D_{ox} = D_{red}$ | Simplification | Peut affecter $\Delta E_p$ |
 
