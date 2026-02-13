@@ -32,12 +32,12 @@ Electrochemical impedance spectroscopy on a pure gold electrode with a ferro/fer
 
 ## 3. Navigation
 
-Navigation in this application is structured around the following tools:
+Navigation through the different pages of this application is structured with the following tools:
 
-1. **Side menu (left)**: main navigation between project sections.
+1. **Side menu (left)**: navigation tool between the different sections of the project:
    - **Introduction**: scientific context and system presentation.
    - **Study comparison**: summary table of the two approaches.
-   - **Study pages**: each study contains Physics (description of the physical models and numerical methods used), Code (codes entirely developed in this project and available for duplication) and Results (visual simulations) tabs.
+   - **Modeling results**: each study contains Physics (description of the physical models and numerical methods used), Code (codes entirely developed in this project and available for duplication) and Results (visual simulations) tabs.
    - **Appendices**: conclusion, glossary, key equations, bibliographical references and a history page on the main researchers and scientists who developed the physical and numerical concepts presented.
 
 2. **Floating navigation buttons (right)**: quick scroll up/down.
