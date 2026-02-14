@@ -20,7 +20,7 @@ Ces travaux constituent un point de départ pour des études plus approfondies, 
 
 ## 2. Perspectives
 
-- Couplage avec des réactions chimiques homogènes (mécanismes EC, ECE).
+- Couplage avec des réactions chimiques homogènes : mécanisme EC (transfert d'électron suivi d'une réaction chimique) et ECE (transfert, réaction chimique, puis second transfert).
 - Prise en compte de la convection (électrodes tournantes, micro-via).
 - Extension aux géométries 3D complexes (microélectrodes).
 - **Fitting inverse EIS** : partir de données expérimentales → extraire Rs, Rct, Q₀, n, σ, R_film via `scipy.optimize`.

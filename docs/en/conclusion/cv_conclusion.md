@@ -20,7 +20,7 @@ This work constitutes a starting point for more in-depth studies, rather than a 
 
 ## 2. Perspectives
 
-- Coupling with homogeneous chemical reactions (EC, ECE mechanisms)
+- Coupling with homogeneous chemical reactions: EC mechanism (electron transfer followed by a chemical reaction) and ECE (transfer, chemical reaction, then second transfer).
 - Convection effects (rotating electrodes, micro-vias)
 - Extension to complex 3D geometries (microelectrodes)
 - **Inverse EIS fitting**: from experimental data → extract Rs, Rct, Q₀, n, σ, R_film via `scipy.optimize`
