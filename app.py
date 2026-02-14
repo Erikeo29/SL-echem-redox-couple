@@ -205,7 +205,7 @@ if selected_page == gen_pages[0]:
     accueil_content = load_file_content("accueil/accueil.md")
     parts = accueil_content.split("---", 1)
 
-    col_text, col_img = st.columns([3, 2])
+    col_text, col_img = st.columns([3, 1])
     with col_text:
         st.markdown(parts[0])
     with col_img:
