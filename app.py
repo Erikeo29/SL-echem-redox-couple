@@ -212,9 +212,12 @@ if selected_page == gen_pages[0]:
         st.markdown(parts[0])
     with col_img:
         cv_gif = os.path.join(DATA_PATH, "cv_parametric_study", "gif", "009_CV_fem_curve.gif")
+        conc_gif = os.path.join(DATA_PATH, "cv_parametric_study", "gif_2d", "022_CV_fem_2D.gif")
         nyquist_png = os.path.join(DATA_PATH, "eis_ferro_study", "run_004", "Nyquist.png")
         if os.path.exists(cv_gif):
             st.image(cv_gif, caption="Cyclic Voltammetry (CV)")
+        if os.path.exists(conc_gif):
+            st.image(conc_gif, caption="Concentration 2D (CV)")
         if os.path.exists(nyquist_png):
             st.image(nyquist_png, caption="Nyquist (EIS)")
 
