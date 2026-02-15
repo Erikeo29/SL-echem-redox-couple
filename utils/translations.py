@@ -13,7 +13,7 @@ TRANSLATIONS = {
         "annex_pages": ["Conclusion et perspectives", "Lexique", "Équations clés", "Un peu d'histoire", "Références bibliographiques"],
         "tabs_cv_study": ["Physique", "Code", "Résultats", "Analyse"],
         "tabs_eis_ferro": ["Physique", "Code", "Résultats", "Analyse"],
-        "version_info": """**Version 2.1.2** — Dec 2025 - *EQU*
+        "version_info": """**Version 2.1.2** — Dec 2025
 
 **Nouveautés :**
 - Étude paramétrique EIS
@@ -72,7 +72,7 @@ TRANSLATIONS = {
         "annex_pages": ["Conclusion and Perspectives", "Glossary", "Key Equations", "A Bit of History", "Bibliographical References"],
         "tabs_cv_study": ["Physics", "Code", "Results", "Analysis"],
         "tabs_eis_ferro": ["Physics", "Code", "Results", "Analysis"],
-        "version_info": """**Version 2.1.2** — Dec 2025 - *EQU*
+        "version_info": """**Version 2.1.2** — Dec 2025
 
 **New Features:**
 - EIS parametric study
