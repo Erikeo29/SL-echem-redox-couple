@@ -10,7 +10,7 @@
 **Paramètres fixes** :
 - D = 7.0e-9 m²/s
 - c_bulk = 1.0 mol/m³ (1 mM)
-- E0 = 0.36 V vs Ag/AgCl
+- E0 = 0.16 V vs Ag/AgCl (sat. KCl)
 - n = 1 électron
 - T = 298.15 K (25°C)
 

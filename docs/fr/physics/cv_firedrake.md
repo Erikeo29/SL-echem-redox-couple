@@ -20,7 +20,7 @@ Ce système est une référence en électrochimie car :
 - Réaction à 1 électron ($n = 1$).
 - Couple quasi-réversible (cinétique rapide).
 - Espèces stables en solution aqueuse.
-- Potentiel standard $E^0 \approx 0.36$ V vs Ag/AgCl à 25°C.
+- Potentiel standard $E^0 \approx 0.16$ V vs Ag/AgCl (sat.) à 25°C.
 
 ### 1.2 Le balayage de potentiel
 
@@ -47,7 +47,7 @@ $$ \frac{\partial c_i}{\partial t} = D_i \nabla^2 c_i $$
 
 | Paramètre | Symbole | Valeur typique |
 |-----------|---------|----------------|
-| Coefficient de diffusion | $D$ | $7 \times 10^{-9}$ m²/s |
+| Coefficient de diffusion | $D$ | $7.6 \times 10^{-10}$ m²/s |
 | Concentration bulk | $c^*$ | 1 mM (1 mol/m³) |
 
 ### 2.2 Cinétique à l'électrode : Butler-Volmer

@@ -41,9 +41,9 @@
    - [Direct PDF (MIT)](https://ocw.mit.edu/courses/10-626-electrochemical-energy-systems-spring-2014/56cfa6e0f28bc8fc1a647cbe679384d1_MIT10_626S14_S11lec13.pdf)
    - Graduate-level course, complete derivation.
 
-5. **Bazant, M. Z. et al.**
+5. **Yan, D.; Bazant, M. Z.; Biesheuvel, P. M.; Pugh, M. C.; Dawson, F. P.**
    *"Theory of linear sweep voltammetry with diffuse charge."*
-   arXiv **2016**, 1608.07004.
+   Phys. Rev. E **2017**, 95, 033303. (arXiv 2016, 1608.07004)
    - [Direct PDF (arXiv)](https://arxiv.org/pdf/1608.07004)
    - Extension of Randles-Sevcik to unsupported electrolytes.
 
@@ -57,9 +57,9 @@
    - [Full Article (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10734727/)
    - CV and EIS study on carbon electrode.
 
-7. **Khan, M. A. et al.**
+7. **Cheah, M. H.; Chernev, P.**
    *"Electrochemical oxidation of ferricyanide."*
-   Scientific Reports **2021**, 11, 22538.
+   Scientific Reports **2021**, 11, 23058.
    - [Full Article (Nature)](https://www.nature.com/articles/s41598-021-02355-3)
    - Discovery of novel oxidation reaction.
 

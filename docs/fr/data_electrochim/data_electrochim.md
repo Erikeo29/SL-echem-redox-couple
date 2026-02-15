@@ -14,7 +14,7 @@
 | Constante de Faraday | $F$ | 96 485 | C/mol |
 | Constante des gaz | $R$ | 8.314 | J/(mol·K) |
 | Température standard | $T$ | 298.15 | K (25°C) |
-| $f = F/RT$ | $f$ | 38.94 | V⁻¹ |
+| $f = F/RT$ | $f$ | 38.92 | V⁻¹ |
 
 ---
 
@@ -28,7 +28,7 @@ $$\text{Fe(CN)}_6^{3-} + e^- \rightleftharpoons \text{Fe(CN)}_6^{4-}$$
 
 | Paramètre | Symbole | Valeur | Unité | Remarque |
 |-----------|---------|--------|-------|----------|
-| Potentiel standard | $E^0$ | **+0.36** | V vs Ag/AgCl | Réversible |
+| Potentiel standard | $E^0$ | **+0.16** | V vs Ag/AgCl (sat.) | Réversible |
 | Constante de vitesse | $k^0$ | 1×10⁻⁵ | m/s | Quasi-réversible |
 | Coefficient de transfert | $\alpha$ | 0.5 | — | Symétrique |
 | Nombre d'électrons | $n$ | 1 | — | — |

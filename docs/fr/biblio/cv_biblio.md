@@ -20,7 +20,7 @@
    - [ResearchGate](https://www.researchgate.net/publication/320843983)
    - Guide moderne et complet, recommandé pour débuter.
 
-2. **Kissinger, P. T.; heineman, W. R.**
+2. **Kissinger, P. T.; Heineman, W. R.**
    *"Cyclic Voltammetry."*
    J. Chem. Educ. **1983**, 60, 702-706.
    - [PDF Direct (Colorado State)](https://diverdi.colostate.edu/C431/experiments/electrochemistry%20-%20cyclic%20voltammetry/references/j_chem_ed_1983_v60_p702.pdf)
@@ -41,9 +41,9 @@
    - [PDF Direct (MIT)](https://ocw.mit.edu/courses/10-626-electrochemical-energy-systems-spring-2014/56cfa6e0f28bc8fc1a647cbe679384d1_MIT10_626S14_S11lec13.pdf)
    - Cours niveau graduate, dérivation complète.
 
-5. **Bazant, M. Z. et al.**
+5. **Yan, D.; Bazant, M. Z.; Biesheuvel, P. M.; Pugh, M. C.; Dawson, F. P.**
    *"Theory of linear sweep voltammetry with diffuse charge."*
-   arXiv **2016**, 1608.07004.
+   Phys. Rev. E **2017**, 95, 033303. (arXiv 2016, 1608.07004)
    - [PDF Direct (arXiv)](https://arxiv.org/pdf/1608.07004)
    - Extension de Randles-Sevcik aux électrolytes non supportés.
 
@@ -57,9 +57,9 @@
    - [Article Complet (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10734727/)
    - Étude CV et EIS sur électrode carbone.
 
-7. **Khan, M. A. et al.**
+7. **Cheah, M. H.; Chernev, P.**
    *"Electrochemical oxidation of ferricyanide."*
-   Scientific Reports **2021**, 11, 22538.
+   Scientific Reports **2021**, 11, 23058.
    - [Article Complet (Nature)](https://www.nature.com/articles/s41598-021-02355-3)
    - Découverte d'une réaction d'oxydation inédite.
 
@@ -67,12 +67,12 @@
 
 ## 4. Spectroscopie d'Impédance électrochimique (EIS)
 
-8. **Lazanas, A. C.; prodromidis, M. I.**
+8. **Lazanas, A. C.; Prodromidis, M. I.**
    *"Electrochemical Impedance Spectroscopy — A Tutorial."*
    ACS Measurement Science Au **2023**, 3(3), 162-193.
    - [Article (ACS)](https://pubs.acs.org/doi/10.1021/acsmeasuresciau.2c00070)
 
-9. **Burke, L. D.; nugent, P. F.**
+9. **Burke, L. D.; Nugent, P. F.**
    *"The electrochemistry of gold: I the redox behaviour of the metal in aqueous media."*
    Gold Bulletin **1997**, 30, 43-53.
    - [Article (Springer)](https://link.springer.com/article/10.1007/BF03214756)

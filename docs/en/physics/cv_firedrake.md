@@ -20,7 +20,7 @@ This system is a reference in electrochemistry because:
 - 1-electron reaction ($n = 1$)
 - Quasi-reversible couple (fast kinetics)
 - Stable species in aqueous solution
-- Standard potential $E^0 \approx 0.36$ V vs Ag/AgCl at 25°C
+- Standard potential $E^0 \approx 0.16$ V vs Ag/AgCl (sat.) at 25°C
 
 ### 1.2 Potential Sweep
 
@@ -47,7 +47,7 @@ $$ \frac{\partial c_i}{\partial t} = D_i \nabla^2 c_i $$
 
 | Parameter | Symbol | Typical Value |
 |-----------|--------|---------------|
-| Diffusion coefficient | $D$ | $7 \times 10^{-9}$ m²/s |
+| Diffusion coefficient | $D$ | $7.6 \times 10^{-10}$ m²/s |
 | Bulk concentration | $c^*$ | 1 mM (1 mol/m³) |
 
 ### 2.2 Electrode Kinetics: Butler-Volmer
