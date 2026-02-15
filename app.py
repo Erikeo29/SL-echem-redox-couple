@@ -216,10 +216,13 @@ if selected_page == gen_pages[0]:
         nyquist_png = os.path.join(DATA_PATH, "eis_ferro_study", "run_004", "Nyquist.png")
         if os.path.exists(cv_gif):
             st.image(cv_gif, caption="Cyclic Voltammetry (CV)")
-        if os.path.exists(conc_gif):
-            st.image(conc_gif, caption="Concentration 2D (CV)")
-        if os.path.exists(nyquist_png):
-            st.image(nyquist_png, caption="Nyquist (EIS)")
+        c_2d, c_eis = st.columns(2)
+        with c_2d:
+            if os.path.exists(conc_gif):
+                st.image(conc_gif, caption="Concentration 2D (CV)")
+        with c_eis:
+            if os.path.exists(nyquist_png):
+                st.image(nyquist_png, caption="Nyquist (EIS)")
 
     # --- Reste du contenu en pleine largeur ---
     if len(parts) > 1:
